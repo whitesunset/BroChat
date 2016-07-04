@@ -63,6 +63,7 @@ RESOURCES += \
     resources.rc
 
 win32:RC_FILE = ico.rc
+ICON = broico.icns
 
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/external/qxmpp-master/src/ -lqxmpp
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/external/qxmpp-master/src/ -lqxmppd
